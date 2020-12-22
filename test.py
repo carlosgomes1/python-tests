@@ -1,6 +1,6 @@
-nome = input('Qual seu nome? \n')
+def sayHello(name):
+    print(f'Hello, {name}')
 
-def sayHello(nome):
-    print(f'Hello, {nome}')
 
-sayHello(nome)
+name = input('What is your name?')
+sayHello(name)
